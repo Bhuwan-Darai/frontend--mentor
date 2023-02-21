@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0px;
+}
+
+body{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+
+.title{
+    color: hsl(218, 44%, 22%);
+}
+
+.desc{
+    color: hsl(220, 15%, 55%);
+}
+
+.elements{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.scanner{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.scanner{
+    width: 220px;
+    
+}
+
+.container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.qrCode{
+    object-fit: cover;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+
+.title{
+    font-family: 'Outfit', serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.desc{
+    color:  hsl(212, 45%, 89%);
+    font-family: 'Outfit', serif;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1;
+}
